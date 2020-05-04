@@ -18,7 +18,7 @@ public:
         {
             int mid = lower_bound + (upper_bound-lower_bound)/2;
             if(mid != 1 && (isBadVersion(mid) && !isBadVersion(mid-1)))
-            /*If this mid version is a bad version but the version before this was a good version, then our                 answer will be this mid version*/
+            /*If this mid version is a bad version but the version before this was a good version, then our answer will be this mid version*/
             {
                 result = mid;
                 break;
