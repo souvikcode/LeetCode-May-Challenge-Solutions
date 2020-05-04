@@ -1,1 +1,1 @@
-"# LeetCode-May-Challenge-Solutions" 
+"LeetCode May Challenge Solutions" 
